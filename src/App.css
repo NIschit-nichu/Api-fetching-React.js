@@ -3,6 +3,7 @@ body{
     /* Custom gradient - Download PNG */
 /* Fallback: */
 background:url(../public/aurora-gradient-1758777360828.png);
+background-size: 100% 100%;
 
 }
 .cardcontainer{
