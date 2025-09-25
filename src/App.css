@@ -1,0 +1,25 @@
+@import "tailwindcss";
+body{
+    /* Custom gradient - Download PNG */
+/* Fallback: */
+background:url(../public/aurora-gradient-1758777360828.png);
+
+}
+.cardcontainer{
+    height: 100%;
+    flex-wrap: wrap;
+}
+.card {
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  box-shadow: 0 0 48px rgba(99, 102, 241, 0.33999999999999997), 0 16px 64px rgba(31, 38, 135, 0.33999999999999997), inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.26666666666666666), transparent 50%);
+  transition: all 500ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  cursor: pointer;
+}
